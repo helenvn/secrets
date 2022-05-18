@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const mongoose = require("mongoose");
 const encrypt = require("mongoose-encryption");
 
-const app = express();
+const app = express();      
 
 app.use(express.static("public"));
 app.set('view engine', 'ejs');
